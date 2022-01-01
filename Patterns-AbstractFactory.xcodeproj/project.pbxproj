@@ -18,6 +18,8 @@
 		A2A5C3D62780C9F70020B1D4 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A5C3D52780C9F70020B1D4 /* Table.swift */; };
 		A2A5C3D92780D09F0020B1D4 /* KitchenChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A5C3D82780D09F0020B1D4 /* KitchenChair.swift */; };
 		A2A5C3DC2780D1B40020B1D4 /* KitchenTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A5C3DB2780D1B40020B1D4 /* KitchenTable.swift */; };
+		A2A5C3DE2780E10D0020B1D4 /* LivingRoomSofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A5C3DD2780E10D0020B1D4 /* LivingRoomSofa.swift */; };
+		A2A5C3E12780E1D40020B1D4 /* LivingRoomChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A5C3E02780E1D40020B1D4 /* LivingRoomChair.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		A2A5C3D52780C9F70020B1D4 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
 		A2A5C3D82780D09F0020B1D4 /* KitchenChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenChair.swift; sourceTree = "<group>"; };
 		A2A5C3DB2780D1B40020B1D4 /* KitchenTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenTable.swift; sourceTree = "<group>"; };
+		A2A5C3DD2780E10D0020B1D4 /* LivingRoomSofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomSofa.swift; sourceTree = "<group>"; };
+		A2A5C3E02780E1D40020B1D4 /* LivingRoomChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingRoomChair.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 				A2A5C3D72780CA050020B1D4 /* Protocols */,
 				A2A5C3DA2780D0F20020B1D4 /* KitchenFurniture */,
 				A2A5C3B32780C0520020B1D4 /* ViewController.swift */,
+				A2A5C3DF2780E1AA0020B1D4 /* LivingRoomFurniture */,
 				A2A5C3B52780C0520020B1D4 /* Main.storyboard */,
 				A2A5C3B82780C0520020B1D4 /* Assets.xcassets */,
 				A2A5C3BA2780C0520020B1D4 /* LaunchScreen.storyboard */,
@@ -96,6 +101,15 @@
 				A2A5C3DB2780D1B40020B1D4 /* KitchenTable.swift */,
 			);
 			name = KitchenFurniture;
+			sourceTree = "<group>";
+		};
+		A2A5C3DF2780E1AA0020B1D4 /* LivingRoomFurniture */ = {
+			isa = PBXGroup;
+			children = (
+				A2A5C3DD2780E10D0020B1D4 /* LivingRoomSofa.swift */,
+				A2A5C3E02780E1D40020B1D4 /* LivingRoomChair.swift */,
+			);
+			name = LivingRoomFurniture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,10 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A5C3DE2780E10D0020B1D4 /* LivingRoomSofa.swift in Sources */,
 				A2A5C3D62780C9F70020B1D4 /* Table.swift in Sources */,
 				A2A5C3B42780C0520020B1D4 /* ViewController.swift in Sources */,
 				A2A5C3D22780C99F0020B1D4 /* Chair.swift in Sources */,
 				A2A5C3DC2780D1B40020B1D4 /* KitchenTable.swift in Sources */,
+				A2A5C3E12780E1D40020B1D4 /* LivingRoomChair.swift in Sources */,
 				A2A5C3B02780C0520020B1D4 /* AppDelegate.swift in Sources */,
 				A2A5C3D92780D09F0020B1D4 /* KitchenChair.swift in Sources */,
 				A2A5C3B22780C0520020B1D4 /* SceneDelegate.swift in Sources */,
