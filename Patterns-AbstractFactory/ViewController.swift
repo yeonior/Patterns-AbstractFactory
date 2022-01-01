@@ -8,12 +8,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var sofa: Sofa?
+    var table: Table?
+    var chair: Chair?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
+    
+    @IBAction func kitchenFurnitureCreation(_ sender: Any) {
+        sofa = KitchenFactory().createSofa()
+        table = KitchenFactory().createTable()
+        chair = KitchenFactory().createChair()
+    }
+    
+    @IBAction func livingRoomFurnitureCreation(_ sender: Any) {
+        sofa = LivingRoomFactory().createSofa()
+        table = LivingRoomFactory().createTable()
+        chair = LivingRoomFactory().createChair()
+    }
 }
-
